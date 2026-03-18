@@ -1,4 +1,5 @@
-import isAuth from '../../middleware/isAuth';
+import routerCourses from '../modules/courses/router';
+import routerProgress from '../modules/progress/router';
 
 export default {
     name: 'index',
@@ -14,6 +15,14 @@ export default {
             name: 'my-account',
             path: '/my-account',
             component: () => import('../views/MyAccount.vue')
+        },
+        {
+            name: 'courses',
+            ...routerCourses
+        },
+        {
+            name: 'progress',
+            ...routerProgress
         }
     ]
 }
