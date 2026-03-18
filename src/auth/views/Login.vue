@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen flex flex-col bg-white dark:bg-zinc-950">
+    <div class="h-screen flex flex-col bg-white dark:bg-zinc-950 overflow-y-auto">
         <!-- Header area with logo -->
         <div class="flex-1 flex flex-col items-center justify-center px-6 pt-16 pb-8">
             <img src="/img/logo.jpg" alt="Nivel U Logo" class="w-24 h-24 rounded-full mb-4 shadow-lg" />
