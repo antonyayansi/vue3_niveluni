@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">nivelu</string>
-    <string name="title_activity_main">nivelu</string>
+    <string name="app_name">Nivel U</string>
+    <string name="title_activity_main">Nivel U</string>
     <string name="package_name">com.nivelu</string>
     <string name="custom_url_scheme">com.nivelu</string>
 </resources>
